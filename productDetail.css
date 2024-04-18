@@ -1,0 +1,22 @@
+.modal {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  /* background: #dad5d5; */
+}
+.product_detail {
+  height: 450px;
+  width: 350px;
+  /* background: #0003; */
+}
+
+.product_detail figure {
+  height: 260px;
+  width: 290px;
+}
+
+.product_detail figure img {
+  height: 100%;
+  width: 100%;
+}

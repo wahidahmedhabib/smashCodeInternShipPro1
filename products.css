@@ -1,0 +1,76 @@
+.products {
+  /* background: rgb(207, 253, 253); */
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  /* background: rgb(231, 132, 132); */
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
+  gap: 10px;
+  min-height: 300px;
+  width: 280px;
+  /* padding: 1.6rem; */
+  padding: 10px;
+  box-shadow: #0000001a 0 4px 12px;
+}
+.card_img {
+  /* background: #000; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rating {
+  color: yellow;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* justify-content: space-; */
+}
+.add_product {
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  border: 1px solid var(--buttonColor);
+
+  /* background: #088; */
+}
+.add_product p {
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 1px var(--buttonColor);
+  border-right: solid 1px var(--buttonColor);
+}
+
+.add_product button {
+  background: transparent;
+  border: none;
+  /* border: 1px solid var(--buttonColor); */
+  width: 35px;
+}
+.card_btns {
+  display: flex;
+  gap: 10px;
+}
+.detail_Btn {
+  font-weight: 700;
+  color: var(--buttonColor);
+  background: transparent;
+  /* width: 150px ; */
+}
+
+

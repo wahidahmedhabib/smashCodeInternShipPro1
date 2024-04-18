@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --buttonColor: #37393d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Urbanist", "sans-serif";
+}
+.body{
+    margin: 0 5px;
+}
+
+header {
+  /* background: #f8c8c8; */
+  box-shadow: #0000000d 0 6px 24px, #00000014 0 0 0 1px;
+}
+.container {
+  max-width: 1024px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.navbar_up {
+  background: var(--buttonColor);
+  color: #fff;
+  height: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+
+  /* gap: 10px; */
+  padding: 10px;
+  font-size: 18px;
+  /* font-size: 1.5rem; */
+}
+
+.header_btns button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 0 12px;
+  color: #646cff;
+  text-decoration: none;
+}
+.header_btns button a {
+  text-decoration: none;
+  color: #646cff !important;
+
+}
+.header_btns button a:after {
+  text-decoration: none;
+  /* color: #646cff !important; */
+
+}
+
+.navbar_down {
+  display: flex;
+  /* background: #9cf58b; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar_down figure {
+  height: 50px;
+  width: 150px;
+}
+.navbar_down figure img {
+  height: 100%;
+  width: 100%;
+}
+.navbar_down ul {
+  display: flex;
+  gap: 10px;
+  /* font-size: 17px;
+  font-weight: bold; */
+  list-style: none;
+}
+.navbar_down ul li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--buttonColor);
+  /* list-style: none; */
+}
+
+.header_Btn{
+    width: 60px !important;
+    height: 25px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.header_Btn span{
+  font-size: 20px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 786px) {
+  body {
+    /* background: #ff1616; */
+  }
+  .navbar_up {
+    /* background: var(--buttonColor); */
+    /* color: #fff; */
+    height: 40px;
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+    gap: 10px;
+    padding: 20px 0;
+    font-size: 18px;
+    /* font-size: 1.5rem; */
+  }
+  .navbar_down{
+    /* background: #8393db; */
+    flex-direction: column;
+    gap: 10px;
+  }
+}
